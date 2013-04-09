@@ -16,7 +16,7 @@ public class Handler extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.exit(0);
+        System.exit(0); /* do not reproduce at home, obviously */
     }
 
     public static void main(String[] args) throws Exception {
